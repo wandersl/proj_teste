@@ -3,7 +3,7 @@ import jsonschema
 from schemas.bairro_schema import *
 from flask import jsonify, Response, request, json
 from models.bairro_model import Bairros
-from messages.error_messages import *
+
 
 
 def get_all_bairros(offset, limit):
